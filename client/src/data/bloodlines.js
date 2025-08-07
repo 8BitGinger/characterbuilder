@@ -1,5 +1,29 @@
 import albinarPhoto from '../assets/images/Albinar.png';
 import arborixPhoto from '../assets/images/Arborix.png';
+import archsPhoto from '../assets/images/Archs.png';
+import avixPhoto from '../assets/images/Avix.png';
+import batrachiansPhoto from '../assets/images/Batrachians.png';
+import bisanuPhoto from '../assets/images/Bisanu.png';
+import boonPhoto from '../assets/images/Boon.png';
+import boreauxPhoto from '../assets/images/Boreaux.png';
+import bovinarPhoto from '../assets/images/Bovinar.png';
+import brinarvPhoto from '../assets/images/Brinarv.png';
+import brinxPhoto from '../assets/images/Brinx.png';
+import brokkinPhoto from '../assets/images/Brokkin.png';
+import cabataPhoto from '../assets/images/Cabata.png';
+import canidellPhoto from '../assets/images/Canidell.png';
+import carrionPhoto from '../assets/images/Carrion.png';
+import centorcPhoto from '../assets/images/Centorc.png'; 
+import cephalajPhoto from '../assets/images/Cephalaj.png';
+import ceruPhoto from '../assets/images/Ceru.png';
+import chitanPhoto from '../assets/images/Chitan.png';
+import chitiniclusPhoto from '../assets/images/Chitniclus.png';
+import cindergardPhoto from '../assets/images/Cindergard.png';
+import cogbornPhoto from '../assets/images/Cogborn.png';
+import crimrikPhoto from '../assets/images/Crimrik.jpg';
+import crystallumPhoto from '../assets/images/Crystallum.png';
+import cuthPhoto from '../assets/images/Cuth.jpg';
+
 
 const bloodlines = [
   {
@@ -34,6 +58,377 @@ const bloodlines = [
     avgHeight: 9,
     avgLife: 1000,
   },
+
+  {
+    id: 'archs',
+    name: 'Archs',
+    boon: 'Unwavering Force: +2 to Might-based Attack Rolls. Their strikes carry immense power.',
+    drawback: 'Stony Gait: -2 to Celerity-based Defense Prowess. Their massive bulk makes them less agile.',
+    rootAbility: 'Earth-Quake Stomp: As a Kinetic Form Spark ability, can unleash a concussive stomp that deals D12 damage to all adjacent foes and can cause a target to be knocked prone (Resilience check to resist).',
+    photo: archsPhoto,
+    description: 'Imposing humanoids with elephantine features, Archs are renowned for their incredible strength, unwavering loyalty, and a deep connection to the earth\'s enduring spirit. They are formidable defenders and noble leaders.',
+    essenceLevel: 2,
+    hpBonus: 12,
+    startingJinx: 10,
+    attackProwess: 12,
+    defenseProwess: 6,
+    avgHeight: 10,
+    avgLife: 147,
+  },
+  {
+    id: 'avix',
+    name: 'Avix',
+    boon: 'Aerial Celerity: +2 to Celerity. Their winged forms grant them superior agility and aerial reflexes.',
+    drawback: 'Fragile Frame: -1 to Resilience. Their light bones and aerial adaptations make them physically less robust.',
+    rootAbility: 'Keen Observation: As an Omen-Marked Spark ability, you can add your Celerity stat to all Spot checks. Their vision and perception are incredibly sharp, especially from above.',
+    photo: avixPhoto,
+    description: 'Graceful and perceptive, Avix are avian humanoids with the features of crows, known for their powerful wings and their exceptional diplomatic skills. They soar through temperate skies, serving as messengers and mediators between disparate communities.',
+    essenceLevel: 3,
+    hpBonus: 7,
+    startingJinx: 35,
+    attackProwess: 8,
+    defenseProwess: 8,
+    avgHeight: 8,
+    avgLife: 63,
+  },
+  {
+    id: 'batrachians',
+    name: 'Batrachians',
+    boon: 'Mire-Bound Cognition: +2 to Cognition. Their minds are attuned to the dark, subtle energies of the swamp, granting arcane insight.',
+    drawback: 'Repulsive Aura: -1 to Celerity. Their inherent foul odor and unsettling appearance can make them sluggish in swift action.',
+    rootAbility: 'Contained Current: As a Hydromancy Spark ability, you can create a shimmering, temporary bubble of contained air around yourself. This bubble allows you to move underwater without needing waterbreathing for 1D4 rounds. Usable once per encounter.',
+    photo: batrachiansPhoto, // Placeholder for Batrachians photo
+    description: 'Foul-smelling and cunning, Batrachians are frog-like humanoids native to festering swamps. They are practitioners of dark magic, their presence often announced by a noxious odor, and they embody the sinister, hidden energies of the bog.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 30,
+    attackProwess: 6,
+    defenseProwess: 8,
+    avgHeight: 5,
+    avgLife: 132,
+  },
+  {
+    id: 'Bisanu',
+    name: 'Bisanu',
+    boon: 'Desert Lore: +2 to Cognition. Their minds are sharp, attuned to the whispers of ancient deserts and forgotten knowledge.',
+    drawback: 'Fading Presence: -2 to Aura. Their often inscrutable nature makes them difficult to connect with on an emotional level.',
+    rootAbility: 'Whispers of the Wilds: As an Unfocused power, once per day, you can choose one of the following: gain +3 to one Listen or Spot check, or gain proficiency with one tool or simple weapon for 1 hour.',
+    photo: bisanuPhoto,
+    description: 'Mystical and enigmatic, Bisanu are canine humanoids with jackal-like features, often associated with ancient desert rites and hidden oasis temples. They are natural geomancers, subtly influencing the sands and drawing arcane wisdom from the sun-baked earth. While often misunderstood, their power can be unsettling.',
+    essenceLevel: 2,
+    hpBonus: 7,
+    startingJinx: 25,
+    attackProwess: 8,
+    defenseProwess: 8,
+    avgHeight: 9,
+    avgLife: 112,
+  },
+  {
+    id: 'boon',
+    name: 'Boon',
+    boon: 'Jungle Agility: +2 to Celerity. Their reflexes are lightning-fast, perfect for quick maneuvers.',
+    drawback: 'Restless Minds: -2 to Cognition. Their energetic nature makes prolonged focus challenging.',
+    rootAbility: 'Acrobatic Leap: As an Unfocused ability, you can perform simple to medium difficulty acrobatic maneuvers (like jumping over obstacles, swinging on vines, or tumbling through a small gap) without needing a chance roll.',
+    photo: boonPhoto, // Placeholder for Boon photo
+    description: 'Agile and boisterous, Trogs are powerful, baboon-like humanoids known for their incredible quickness, cunning, and acrobatic prowess. They thrive in lush jungles, navigating dense canopies with ease and exhibiting surprising sleight of hand.',
+    essenceLevel: 2,
+    hpBonus: 6,
+    startingJinx: 25,
+    attackProwess: 12,
+    defenseProwess: 4,
+    avgHeight: 6,
+    avgLife: 55,
+  },
+  {
+    id: 'boreaux',
+    name: 'Boreaux',
+    boon: 'Rooted Resilience: +2 to Resilience. Their bodies are as tough as ancient wood, granting them immense durability.',
+    drawback: 'Branching Demeanor: -1 to Aura. Their stoic and unyielding nature can make them seem gruff or unapproachable.',
+    rootAbility: 'Grumpy and unyielding, Boreaux are tree-like humanoids rooted in the ancient woods. They are known for their stubborn resolve and their deep, if sometimes cantankerous, connection to the forest. They embody the enduring strength and silent wisdom of the oldest trees.',
+    photo: boreauxPhoto, // Placeholder for Boreaux photo
+    essenceLevel: 3,
+    hpBonus: 7,
+    startingJinx: 30,
+    attackProwess: 8,
+    defenseProwess: 10,
+    avgHeight: 11,
+    avgLife: 400,
+  },
+  {
+    id: 'bovinar',
+    name: 'Bovinar',
+    boon: 'Unstoppable Might: +3 to Might. Their raw physical power is nearly unparalleled.',
+    drawback: 'Focused Mind: -1 to Cognition. Their direct approach sometimes leaves little room for abstract thought or intricate planning.',
+    rootAbility: 'Thunderous Charge: As a Kinetic Form Spark ability, once per encounter, you can charge towards a target (up to 30ft), and if you hit with a melee attack, the target must succeed on a Resilience saving throw or be knocked prone or pushed up to 10ft away (your choice).',
+    photo: bovinarPhoto, // Placeholder for Bovinar photo
+    description: 'Powerful and unyielding, Bovinar are imposing minotaur-like humanoids, characterized by their bovine features and immense strength. They are renowned for their stubborn determination, keen sense of direction, and a tendency to face challenges head-on with formidable force.',
+    essenceLevel: 3,
+    hpBonus: 8,
+    startingJinx: 30,
+    attackProwess: 12,
+    defenseProwess: 6,
+    avgHeight: 8.5,
+    avgLife: 87,
+  },
+  {
+    id: 'brinarv',
+    name: 'Brinarv',
+    boon: 'Aquatic Cognition: +2 to Cognition. Their minds are sharp, adapting to the fluid logic of the ocean and the complexities of strategy.',
+    drawback: 'Dryland Frailty: -1 to Resilience. Their bodies are acclimated to water, making them slightly less robust in arid or exceptionally dry environments.',
+    rootAbility: 'Water Jet: As a Hydromancy Spark ability, can project a blast of water from their hands, doing D8 damage to a target within 30ft. This ability can be used once per round.',
+    photo: brinarvPhoto, // Placeholder for Brinarv photo
+    description: 'Agile and adaptable, Brinarv are aquatic dwarves who have evolved to thrive in the ocean\'s depths, building cities entirely as docks over unoccupied parts of the sea. They are masters of water-based abilities and possess a sharp intellect, with a cultural affinity for calculated risks and strategic wagers.',
+    essenceLevel: 3,
+    hpBonus: 8,
+    startingJinx: 30,
+    attackProwess: 6,
+    defenseProwess: 10,
+    avgHeight: 4,
+    avgLife: 120,
+  },
+  {
+    id: 'brinx',
+    name: 'Brinx',
+    boon: 'Arcane Radiance: +1 to Aura. Their presence is inherently charming and magical.',
+    drawback: 'Fragile Frame: -2 to Might. Their delicate forms make them less suited for brute force.',
+    rootAbility: 'Fey Flight: As an Aerotec Spark ability, possess delicate wings that grant them a flying speed equal to their walking speed. This ability cannot be used if wearing medium or heavy armor.',
+    photo: brinxPhoto, // Placeholder for Brinx photo
+    description: 'Tiny and effervescent, Brinx are fey beings whose forms shimmer with latent Spark energy. Though diminutive, they possess astonishing magical capabilities and an infectious, whimsical spirit, often found flitting through vibrant hillsides.',
+    essenceLevel: 2,
+    hpBonus: 3,
+    startingJinx: 40,
+    attackProwess: 4,
+    defenseProwess: 12,
+    avgHeight: 1,
+    avgLife: 12,
+  },
+  {
+    id: 'brokkin',
+    name: 'Brokkin',
+    boon: 'Unflinching Might: +1 to Might. Their physical prowess allows them to stand firm against any foe.',
+    drawback: 'Focused Resolve: -1 to Cognition. Their singular determination sometimes leaves little room for abstract thought or quick adaptation to new ideas.',
+    rootAbility: 'Shield-Warden\'s Stance: As a Kinetic Form Spark ability, gain proficiency with shields. When wielding a shield, you can use a bonus action to brace, gaining +1 AC until your next turn.',
+    photo: brokkinPhoto, // Placeholder for Brokkin photo
+    description: 'Stoic and resilient, Brokkin are stout, badger-like humanoids whose forms seem hewn from the very mountains they inhabit. Known for their fierce loyalty and unyielding defense, they embody the strength of stone and the tenacity of the wildlands. Their deep booming voices echo through the valleys, carrying tales of ancient battles and enduring traditions.',
+    essenceLevel: 1,
+    hpBonus: 10,
+    startingJinx: 10,
+    attackProwess: 10,
+    defenseProwess: 8,
+    avgHeight: 9,
+    avgLife: 67,
+  },
+  {
+    id: 'Cabata',
+    name: 'Cabata',
+    boon: 'Nocturnal Cognition: +3 to Cognition. Their minds are exceptionally sharp in low-light conditions.',
+    drawback: 'Aura of Creepiness: -5 to Aura. Their unsettling appearance and demeanor make them difficult to trust or connect with.',
+    rootAbility: 'Shadowed Flight: As an Aerotec Spark ability, possess leathery wings that grant them a flying speed equal to their walking speed. This ability cannot be used if wearing medium or heavy armor.',
+    photo: cabataPhoto, // Placeholder for Cabata photo
+    description: 'Silent and unsettling, Cabata are bat-like humanoids who glide through shadowed forests and cavernous depths. Their keen senses and natural affinity for darkness make them formidable scouts and elusive combatants, often perceived as ominous figures.',
+    essenceLevel: 3,
+    hpBonus: 5,
+    startingJinx: 30,
+    attackProwess: 6,
+    defenseProwess: 6,
+    avgHeight: 6,
+    avgLife: 66,
+  },
+  {
+    id: 'canidell',
+    name: 'Canidell',
+    boon: 'Knight\'s Might: +2 to Might. Their physical strength and presence are formidable in combat.',
+    drawback: 'Unbending Stance: -1 to Aura. Their rigid adherence to codes can make them appear inflexible in diplomacy.',
+    rootAbility: 'Sentinel\'s Gaze: As an Unfocused ability, can see in darkness as if it were dim light out to 60ft. This does not pierce magical darkness.',
+    photo: canidellPhoto, // Placeholder for Canidell photo
+    description: 'Noble and unwavering, Canidell are dog-like humanoids renowned for their fierce loyalty and unyielding commitment to justice. They serve as valiant knights and vigilant protectors in cities and kingdoms, their bark as solid as their resolve.',
+    essenceLevel: 3,
+    hpBonus: 7,
+    startingJinx: 25,
+    attackProwess: 10,
+    defenseProwess: 6,
+    avgHeight: 8,
+    avgLife: 88,
+  },
+  {
+    id: 'carrion',
+    name: 'Carrion',
+    boon: 'Salvage Might: +2 to Might. Their bodies are strong, capable of carrying and manipulating heavy salvaged materials.',
+    drawback: 'Skeptic\'s Reflex: -1 to Celerity. Their meticulous nature and constant evaluation of items can make them slow to react quickly in spontaneous situations.',
+    rootAbility: 'Scavenger\'s Flight: As an Aerotec Spark ability, possess large, powerful wings that grant them a flying speed equal to their walking speed. This ability cannot be used if wearing medium or heavy armor.',
+    photo: carrionPhoto, // Placeholder for Carrion photo
+    description: 'Stern and practical, Carrions are vulture-like humanoids who inhabit desolate deserts and high mountains. They are renowned for their unwavering commitment to utility, never discarding anything, instead meticulously hoarding and repairing broken objects, seeing value where others see only ruin.',
+    essenceLevel: 4,
+    hpBonus: 7,
+    startingJinx: 35,
+    attackProwess: 8,
+    defenseProwess: 6,
+    avgHeight: 7,
+    avgLife: 77,
+  },
+  {
+    id: 'centorc',
+    name: 'Centorc',
+    boon: 'Unyielding Charge: +2 to Might. Their powerful physique allows for devastating assaults.',
+    drawback: 'Uncouth Form: -4 to Celerity. Their massive, muscled forms lack agility and fine motor control.',
+    rootAbility: 'Battle Reflexes: As a Kinetic Form Spark ability, can take the "Double Take" action (double your actions per turn) once per encounter, but only if they have successfully hit a target with a melee attack that turn.',
+    photo: centorcPhoto, // Placeholder for Centorc photo
+    description: 'A fearsome hybrid of Orc and Centaur, Centorcs are formidable, brawny warriors with a primal hunger. Part of the savage "Iron-Hides" lineage, they roam desolate plains, their tactics brutal and their loyalty fierce within their warbands.  They are rumored to have murdered, raped, and cannibilised the last of the true centaurs',
+    essenceLevel: 3,
+    hpBonus: 7,
+    startingJinx: 25,
+    attackProwess: 10,
+    defenseProwess: 6,
+    avgHeight: 13,
+    avgLife: 43,
+  },
+  {
+    id: 'cephalaj',
+    name: 'Cephalaj',
+    boon: 'Uncanny Celerity: +2 to Celerity. Their eight limbs grant them remarkable agility and quick reactions underwater.',
+    drawback: 'Fragile Form: -2 to Resilience. Their soft, invertebrate bodies are less resistant to blunt force trauma.',
+    rootAbility: 'Abyssal Glide: As a Hydromancy Spark ability, possess innate water breathing and a swim speed equal to their walking speed. Their flexible bodies allow them to squeeze through surprisingly small gaps underwater.',
+    photo: cephalajPhoto, // Placeholder for Cephalaj photo
+    description: 'Eerie and unsettling, Cephalaj are humanoids with flexibility and a chilling grace in aquatic environments. They are known for starting the Courts of Coral an international court designed to try members of others species who have devastated marine life.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 30,
+    attackProwess: 10,
+    defenseProwess: 4,
+    avgHeight: 9,
+    avgLife: 96,
+  },
+  {
+    id: 'ceru',
+    name: 'Ceru',
+    boon: 'Fluid Cognition: +2 to Cognition. Their minds are adaptable and perceptive, flowing with the currents of thought.',
+    drawback: 'Physical Frailty: -2 to Might. Their connection to subtle energies and aquatic environments leaves them less suited for raw physical strength.',
+    rootAbility: 'Dual Breathing: As a Hydromancy Spark ability, possess both gills and lungs, allowing for unlimited breathing in both water and air, and granting a swim speed equal to their walking speed.',
+    photo: ceruPhoto, // Placeholder for Ceru photo
+    description: 'Graceful and ethereal, Ceru are elves attuned to both sea and air, their skin shimmering with the hues of deep waters. They value beauty, harmony with nature, and the vast, serene expanses of coastlines, embodying the fluid elegance of their elemental domains.',
+    essenceLevel: 4,
+    hpBonus: 7,
+    startingJinx: 35,
+    attackProwess: 8,
+    defenseProwess: 8,
+    avgHeight: 5.5,
+    avgLife: 164,
+  },
+  {
+    id: 'chitan',
+    name: 'Chitan',
+    boon: 'Adamant Charge: +2 to Might. Their physical presence is overwhelming, and their charges are devastating.',
+    drawback: 'Impulsive Force: -1 to Celerity. Their direct and powerful nature makes them less adept at subtle or quick maneuvers.',
+    rootAbility: 'Gore Horn: As a Kinetic Form Spark ability, can attack someone with their horn doing D10 damage plus their Might Stat. This counts as an unarmed melee attack.',
+    photo: chitanPhoto, // Placeholder for Chitan photo
+    description: 'Powerful and stoic, Chitans are rhino-like humanoids whose very bodies are living conduits of primal energy. In their youth, they ritually break off their nascent horns, gaining access to potent magical abilities that resonate with their enduring spirit and formidable strength.',
+    essenceLevel: 2,
+    hpBonus: 7,
+    startingJinx: 30,
+    attackProwess: 12,
+    defenseProwess: 4,
+    avgHeight: 11,
+    avgLife: 71,
+  },
+  {
+    id: 'chitiniclus',
+    name: 'Chitiniclus',
+    boon: 'Desert Resilience: +2 to Resilience. Their chitinous exoskeleton and adaptations allow them to endure extreme conditions with little sustenance.',
+    drawback: 'Unsettling Presence: -2 to Aura. Their insectoid appearance and silent movements can deeply unnerve other sentient beings.',
+    rootAbility: 'Quad-Wield: As an Unfocused ability, when wielding a single weapon in your dominant hand, it duplicates into three additional spectral weapons, extending to your other three arms. This gives you the ability to wield these weapons without taking untrained penalties, allowing for multiple simultaneous attacks.',
+    photo: chitiniclusPhoto, // Placeholder for Chitiniclus photo
+    description: 'Lean and unnerving, Chitiniclus are towering insectoid humanoids with four powerful arms, adapted to the harsh, arid conditions of the desert. They are formidable, precise combatants with an alien grace, able to sustain themselves on minimal water.',
+    essenceLevel: 3,
+    hpBonus: 9,
+    startingJinx: 30,
+    attackProwess: 10,
+    defenseProwess: 6,
+    avgHeight: 8,
+    avgLife: 156,
+  },
+  {
+    id: 'cindergard',
+    name: 'Cindergard',
+    boon: 'Molten Resilience: +2 to Resilience. Their bodies are accustomed to extreme heat, granting immense physical fortitude.',
+    drawback: 'Blazing Impulsivity: -3 to Celerity. Their fiery temperament and heavy forms make them less swift or graceful in movement.',
+    rootAbility: 'Combustion Spark: As a Pyre Arts Spark ability, you can ignite small combustible materials (e.g., tinder, oil) with a touch, or cause a small burst of flame (1D4 fire damage) on a surface. This reflects their innate connection to fire.',
+    photo: cindergardPhoto, // Placeholder for Cindergard photo
+    description: 'Hearty and enduring, Cinderguards are dwarves whose lineage evolved over millennia within mega-volcanoes. They possess bodies as tough as hardened magma, fiery beards, and an inherent resistance to heat, making them living embodiments of the forge\'s inferno.',
+    essenceLevel: 4,
+    hpBonus: 7,
+    startingJinx: 30,
+    attackProwess: 8,
+    defenseProwess: 10,
+    avgHeight: 4,
+    avgLife: 130,
+  },
+  {
+    id:'cogborns',
+    name: 'Cogborns',
+    boon: 'Cognitive Mastery: +5 to Cognition. Their logical minds are incredibly efficient, capable of complex analysis and rapid problem-solving.',
+    drawback: 'Focused Design: -2 to All Other Stats (Aura, Might, Celerity, Resilience). Their specialized design leaves other aspects of their being underdeveloped.',
+    rootAbility: 'Automated Replication: As a Kinetic Form Spark ability, you can, once per long rest, spend 10 Jinx to build a new Fixate. This takes 1D4 hours. The new Fixate is loyal to its purpose of repair but will not automatically obey you, acting as an NPC.',
+    photo: cogbornPhoto, // Placeholder for Cogborns photo
+    description: 'A peculiar race of magical constructs, Cogborns were originally created for self-repair, but their replication protocols spiraled into an entire sentient race. They now roam Cindervoid, compelled to mend what is broken, their forms often simple but their purpose unwavering.',
+    essenceLevel: 2,
+    hpBonus: 1,
+    startingJinx: 40,
+    attackProwess: 8,
+    defenseProwess: 4,
+    avgHeight: 3,
+    avgLife: 10000, // Cogborns are constructs, so they can theoretically live indefinitely
+
+  },
+  {
+    id: 'crimrik',
+    name: 'Crimrik',
+    boon: 'Lingering Vitality: +1 to Celerity. Their movements are swift, almost ghostly.',
+    drawback: 'Eroding Flesh: -1 to Resilience. Their tainted lineage makes them slightly more vulnerable to the ravages of physical harm.',
+    rootAbility: 'Essence Drain: As a Vitality Weaving Spark ability, you can, once per short or long rest, make a special unarmed attack. On a hit, you deal 1D6 necrotic damage and regain HP equal to half the damage dealt.',
+    photo: crimrikPhoto, // Placeholder for Crimrik photo
+    description: 'Lithe and unnerving, Crimrik are elv-kind with a subtle, chilling taint of necrotic energy in their veins. They move with an unnatural grace, often drawn to the shadowed places of the world. While possessing a keen intellect and inherent resilience, their very presence can sometimes feel unsettling, a living echo of entropy.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 25,
+    attackProwess: 8,
+    defenseProwess: 10,
+    avgHeight: 7,
+    avgLife: 137, // Crimrik can theoretically live indefinitely
+
+  },
+  {
+    id: 'crystallum',
+    name: 'Crystallum',
+    boon: 'Crystalline Resilience: +2 to Resilience. Their gem-infused bodies are remarkably durable and resistant to harm.',
+    drawback: 'Ethereal Frame: -2 to Might. Their connection to esoteric energies sometimes makes their physical form less suited for brute force.',
+    rootAbility: 'Spark-Hardened Soul: As a Vitality Weaving Spark ability, once per encounter, you can add your Resilience modifier to any Spark attack\'s damage.',
+    photo: crystallumPhoto, // Placeholder for Crystallum photo
+    description: 'Radiant and enigmatic, Crystallum are humanoids whose very essence has become intertwined with magical gems. They are born from ancient gem mines, their skin often shimmering with crystalline patterns, possessing an innate connection to arcane energy and the resilient power of the earth\'s heart.',
+    essenceLevel: 2,
+    hpBonus: 6,
+    startingJinx: 25,
+    attackProwess: 8,
+    defenseProwess: 10,
+    avgHeight: 7,
+    avgLife: 91, // Crystallum can theoretically live indefinitely
+  },
+
+  {
+    id: 'cuth',
+    name: 'Cuth',
+    boon: 'Cosmic Cognition: +1 to Cognition. Their minds grasp intricate concepts with ease.',
+    drawback: 'Alien Form: -1 to Might. Their physical forms are often less robust than other races.',
+    rootAbility: 'Echo of Cognition: As a Mindfire Spark ability, once per encounter, you can absorb the essence of another Spark user by touch (requires touch for 1 round). You can then use one of their known Spark powers once. The absorbed power is lost if you use this ability again.',
+    photo: cuthPhoto, // Placeholder for Cuth photo
+    description: 'Enigmatic and intellectually driven, Cuth are rumored to be otherworldly beings, with forms subtly alien and minds attuned to complex patterns. They value diplomacy and ingenious invention, often found in the coldest, most isolated regions, charting unseen knowledge.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 30,
+    attackProwess: 8,
+    defenseProwess: 8,
+    avgHeight: 6,
+    avgLife: 800, // Cuth can theoretically live indefinitely
+  }
 ];
 
 export default bloodlines;
