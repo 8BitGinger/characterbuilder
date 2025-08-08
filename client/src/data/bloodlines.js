@@ -23,6 +23,16 @@ import cogbornPhoto from '../assets/images/Cogborn.png';
 import crimrikPhoto from '../assets/images/Crimrik.jpg';
 import crystallumPhoto from '../assets/images/Crystallum.png';
 import cuthPhoto from '../assets/images/Cuth.jpg';
+import deepkinPhoto from '../assets/images/Deepkin.png';
+import delvianPhoto from '../assets/images/Delvian.png';
+import drohnPhoto from '../assets/images/Drohn.jpg';
+import duogoblinPhoto from '../assets/images/Duogoblin.png';
+import effigyPhoto from '../assets/images/Effigy.png';
+import eidolonPhoto from '../assets/images/Eidolon.png';
+import elticPhoto from '../assets/images/Eltic.jpg';
+import elvPhoto from '../assets/images/Elv.jpg';
+import elvitchPhoto from '../assets/images/Elvitch.png';
+import enormPhoto from '../assets/images/Enorm.png';
 
 
 const bloodlines = [
@@ -427,8 +437,169 @@ const bloodlines = [
     attackProwess: 8,
     defenseProwess: 8,
     avgHeight: 6,
-    avgLife: 800, // Cuth can theoretically live indefinitely
-  }
+    avgLife: 800, 
+  },
+  {
+    id: 'deepkin',
+    name: 'Deepkin',
+    boon: 'Abyssal Intellect: +2 to Cognition. Their minds are sharp and accustomed to complex thought.',
+    drawback: 'Surface Frailty: -2 to Resilience when outside of water for more than 1 hour. Extended exposure to dry air weakens their constitution.',
+    rootAbility: 'Aquatic Adaptation: As a Hydromancy Spark ability, possess natural gills and webbed limbs, allowing for unlimited underwater breathing and double movement speed in water.',
+    photo: deepkinPhoto, // Placeholder for Deepkin photo
+    description: 'Inhabitants of the darkest abysses, Deepkin are aquatic beings with tentacled features, adapted to the crushing pressures and unseen wonders of the deep sea. They possess an alien intellect and a resilience born of their harsh environment.',
+    essenceLevel: 2,
+    hpBonus: 9,
+    startingJinx: 15,
+    attackProwess: 10,
+    defenseProwess: 8,
+    avgHeight: 5,
+    avgLife: 74, 
+  },
+  {
+    id: 'delvian',
+    name: 'Delvian',
+    boon: 'Moon-Kissed Celerity: +1 to Celerity. Their movements are swift and graceful under the moon\'s influence.',
+    drawback: 'Fading Charm: -1 to Aura. Their connection to the mysterious night can make them seem aloof or distant to others.',
+    rootAbility: 'Moonlit Visage: As a Radiant Spark ability, gain a temporary plus 5 to HP when exposed to moonlight (natural or magically created) for at least one minute. This benefit persists as long as they are in moonlight.',
+    photo: delvianPhoto, // Placeholder for Delvian photo
+    description: 'Elvkind imbued with the ethereal power of moonlight, Delvians possess an enchanting, purplish hue to their skin. They are guardians of ancient groves, drawing strength and insight from the night sky, their movements as fluid as the moon\'s ebb and flow.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 25,
+    attackProwess: 8,
+    defenseProwess: 6,
+    avgHeight: 8,
+    avgLife: 183,
+  },
+  {
+    id: 'drohn',
+    name: 'Drohn',
+    boon: 'Formless Agility: +5 to Celerity. Their mutable forms allow for incredibly fluid and unpredictable movements.',
+    drawback: 'Inscrutable Nature: -5 to Aura. Their inability to communicate conventionally makes them profoundly alien and difficult to understand or trust.',
+    rootAbility: 'Watery Veil: As a Hydromancy Spark ability, possess innate water breathing and can subsist entirely on immersion in water. They can also create a small area (5ft radius) of thick fog once per encounter.',
+    photo: drohnPhoto, // Placeholder for Drohn photo
+    description: 'Mysterious and ancient, Drohn are sentient swamplands given rudimentary form, able to articulate only their own strange, resonant name. Their intentions remain unknown, as they silently watch over their marshy domains, their forms shifting and reforming with the very earth.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 40,
+    attackProwess: 6,
+    defenseProwess: 10,
+    avgHeight: 6,
+    avgLife: 21,
+  },
+  {
+    id: 'duogoblin',
+    name: 'Duogoblin',
+    boon: 'Dual Insight: +1 to Attack Rolls. Their two perspectives give them an advantage in combat.',
+    drawback: 'Conflicted Minds: -2 to Cognition. Their dual consciousness can sometimes lead to internal disagreement and difficulty focusing.',
+    rootAbility: 'Polyglot Echo: As an Unfocused ability, once a language has been heard, both heads can perfectly reproduce it. You can instantly understand and speak any language you hear.',
+    photo: duogoblinPhoto, // Placeholder for Duogoblin photo
+    description: 'A rare and unsettling variant of goblin-kind, Duogoblin possess two distinct heads – one typically goblinoid, the other resembling an animal. This grants them a unique, often chaotic, perspective and an uncanny ability to vocalize any language they\'ve heard.',
+    essenceLevel: 2,
+    hpBonus: 8,
+    startingJinx: 30,
+    attackProwess: 12,
+    defenseProwess: 6,
+    avgHeight: 15,
+    avgLife: 69,
+  },
+  {
+    id: 'effigy',
+    name: 'Effigy',
+    boon: 'Calculated Cognition: +5 to Cognition. Their minds are precise and logical, capable of rapid and complex analysis.',
+    drawback: 'Brittle Form: -4 to Resilience. Their stone-like bodies are susceptible to heavy impacts, making them vulnerable to physical punishment.',
+    rootAbility: 'Self-Replicate: As a Kinetic Form Spark ability, once per encounter, you can spend 5 Jinx to create an exact duplicate of yourself that lasts until the end of the encounter or until destroyed (HP equal to your current HP, no Spark abilities, acts on your turn after you). You can control this duplicate.',
+    photo: effigyPhoto, // Placeholder for Effigy photo
+    description: 'Small, identical, and unnervingly mischievous, Effigies are living statues barely a foot tall. They reproduce at will but rarely do, yet their numbers are mysteriously vast. They embody an unsettling, silent omnipresence and a surprising capacity for highly intelligent, if cryptic, actions.',
+    essenceLevel: 3,
+    hpBonus: 5,
+    startingJinx: 20,
+    attackProwess: 12,
+    defenseProwess: 12,
+    avgHeight: 2,
+    avgLife: 999, // Effigies are constructs, so they can theoretically live indefinitely
+  },
+  {
+    id: 'eidolon',
+    name: 'Eidolon',
+    boon: 'Fluid Resilience: +2 to Resilience. Their amorphous bodies can absorb and reshape to withstand considerable damage.',
+    drawback: 'Unstable Form: -2 to Might. Their lack of solid bone or muscle makes them less suited for raw physical strength.',
+    rootAbility: 'Mimicry: As a Kinetic Form Spark ability, you can shift your face to perfectly resemble another humanoid you have seen. This transformation lasts 1 hour or until you end it as a bonus action. This does not change your body size or shape.',
+    photo: eidolonPhoto, // Placeholder for Eidolon photo
+    description: 'Enigmatic and unsettling, Goobs are creatures of living green goo, capable of altering their appearance at will to perfectly mimic others. They are ubiquitous, silent observers who can blend seamlessly into any environment, their true intentions often inscrutable.',
+    essenceLevel: 2,
+    hpBonus: 6,
+    startingJinx: 25,
+    attackProwess: 6,
+    defenseProwess: 8,
+    avgHeight: 5,
+    avgLife: 100,
+  },
+  {
+    id: 'eltic',
+    name: 'Eltic',
+    boon: 'Frozen Resolve: +1 to Might. Their bodies are hardened by the ice, granting them exceptional strength.',
+    drawback: 'Heat Aversion: -1 to Resilience. They struggle to endure extreme heat or arid environments.',
+    rootAbility: 'Chilling Touch: As a Hydromancy Spark ability, all your unarmed and weapon attacks deal an additional 1D4 cold damage.',
+    photo: elticPhoto, // Placeholder for Eltic photo
+    description: 'Stoic and resilient, Eltic are elvkind adapted to the unforgiving arctic, with skin the color of ice and hair like fresh snow. They are formidable warriors, imbued with a natural affinity for cold, their presence chilling and their strikes infused with frost.',
+    essenceLevel: 4,
+    hpBonus: 7,
+    startingJinx: 35,
+    attackProwess: 10,
+    defenseProwess: 6,
+    avgHeight: 8,
+    avgLife: 173,
+  },
+  {
+    id: 'elv',
+    name: 'Elv',
+    boon: 'Keen Senses: +1 to Celerity. Their senses are incredibly sharp, allowing them to perceive the world with uncanny detail.',
+    drawback: 'Physical Frailty: -1 to Resilience. Their ethereal connection sometimes leaves their physical form less hardy than other races.',
+    rootAbility: 'Forest Strider: As an Unfocused ability, you can move through any non-magical difficult terrain caused by plants (such as thorns or dense undergrowth) without expending extra movement. You also gain advantage on Celerity (Acrobatics) checks when moving through tree branches.',
+    photo: elvPhoto, // Placeholder for Elv photo
+    description: 'Graceful and long-lived, Elvs (or Veridian Grace as they call themselves) are attuned to the natural world and the flow of esoteric energies. They possess keen senses, a natural affinity for magic, and an elegant demeanor that belies their formidable skills.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 30,
+    attackProwess: 6,
+    defenseProwess: 10,
+    avgHeight: 7,
+    avgLife: 164,
+  },
+  {
+    id: 'elvitch',
+    name: 'Elvitch',
+    boon: 'Skyborn Grace: +2 to Celerity. Their movements are fluid and graceful, allowing them to navigate the skies with ease.',
+    drawback: 'Direlands Temperament: -1 to Aura. Their harsh upbringing in the direlands can make them seem aloof or unapproachable.',
+    rootAbility: 'Direbond: The Elvitch participate in a silent communion with their Dire Falcon/Hawk mounts, a bond that is forged in the wild. This "Direbond" is not one of ownership, but of partnership. Once per encounter, you can call upon your Dire Falcon/Hawk to assist you in combat.',
+    photo: elvitchPhoto, // Placeholder for Elvitch photo
+    description: 'Elvitch, a rugged and wild variant of the Elv, hail from the treacherous Direlands. Unlike their graceful counterparts, they have traded formal elegance for raw survival, embodying the harshness of their environment. They possess a deep, almost instinctual connection to the sky and the powerful predators that inhabit it.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 30,
+    attackProwess: 10,
+    defenseProwess: 8,
+    avgHeight: 7,
+    avgLife: 164,
+  },
+  {
+    id: 'enorm',
+    name: 'Enorm',
+    boon: 'Unrivaled Might: +2 to Might. Their immense forms possess overwhelming physical strength.',
+    drawback: 'Lumbering Grace: -2 to Celerity. Their colossal size makes them slow and less agile in movement.',
+    rootAbility: 'Elemental Infusion: As a Kinetic Form Spark ability, you can choose one elemental damage type (Fire, Cold, Lightning, Acid, or Necrotic) at the start of combat. All your attacks deal an additional 1D4 damage of that type for the duration of the encounter.',
+    photo: enormPhoto, // Placeholder for Enorm photo
+    description: 'Towering and ancient, Enorms (or Giants) are beings of prodigious size and raw power, often dwelling in the deepest, most untouched forests. They are simple, direct, and embody the untamed might of the wild, capable of reshaping landscapes with their sheer presence.',
+    essenceLevel: 3,
+    hpBonus: 9,
+    startingJinx: 30,
+    attackProwess: 12,
+    defenseProwess: 4,
+    avgHeight: 15,
+    avgLife: 53,
+  },
+
 ];
 
 export default bloodlines;
