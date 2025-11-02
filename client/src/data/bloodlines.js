@@ -33,6 +33,68 @@ import elticPhoto from '../assets/images/Eltic.jpg';
 import elvPhoto from '../assets/images/Elv.jpg';
 import elvitchPhoto from '../assets/images/Elvitch.png';
 import enormPhoto from '../assets/images/Enorm.png';
+import felynxPhoto from '../assets/images/Felynx.png'
+import fideliuskPhoto from '../assets/images/Fideliusk.png';
+import fraxPhoto from '../assets/images/Frax.jpg';
+import gonjicPhoto from '../assets/images/Gonjic.png';
+import gorakPhoto from '../assets/images/Gorak.png';
+import gromPhoto from '../assets/images/Grom.png';
+import grotPhoto from '../assets/images/Grot.jpg';
+import harmoniksPhoto from '../assets/images/Harmoniks.png';
+import hartfolkPhoto from '../assets/images/Hartfolk.png';
+import havginPhoto from '../assets/images/Havgin.png';
+import humanPhoto from '../assets/images/Human.png';
+import ignollPhoto from '../assets/images/Ignoll.png';
+import jedanakoPhoto from '../assets/images/Jedanako.png';
+import kannenitesPhoto from '../assets/images/Kannenites.png';
+import karnPhoto from '../assets/images/Karn.jpg';
+import katyotikinPhoto from '../assets/images/Katyotikin.png';
+import kraxekenPhoto from '../assets/images/Kraxeken.png';
+import leoninePhoto from '../assets/images/Leonine.png';
+import leopridPhoto from '../assets/images/Leoprid.png';
+import luminariiPhoto from '../assets/images/Luminarii.jpg';
+import mawraithPhoto from '../assets/images/Mawraith.png';
+import mirrormenPhoto from '../assets/images/Mirrormen.png';
+import monokumaPhoto from '../assets/images/Monokuma.png';
+import mycoPhoto from '../assets/images/Myco.png';
+import nowlenicPhoto from '../assets/images/Nowlec.png';
+import orcPhoto from '../assets/images/Orc.png';
+import otorcPhoto from '../assets/images/Otorc.png';
+import panthariPhoto from '../assets/images/Panthari.png';
+import plumePhoto from '../assets/images/Plume.png';
+import polorixPhoto from '../assets/images/Polarix.png';
+import polkanPhoto from '../assets/images/Polkan.png';
+import potecPhoto from '../assets/images/Potec.jpg';
+import pyrathrownPhoto from '../assets/images/Pyrathrown.png';
+import qPhoto from '../assets/images/Q.jpg';
+import ramzekinPhoto from '../assets/images/Ramzekin.png';
+import redhornPhoto from '../assets/images/Redhorn.jpg';
+import rocodianPhoto from '../assets/images/Rocodian.png';
+import savantePhoto from '../assets/images/Savante.png';
+import selvanPhoto from '../assets/images/Selvan.png';
+import sophomariPhoto from '../assets/images/Sophomari.png';
+import spellockePhoto from '../assets/images/Spellocke.png';
+import taotuhkPhoto from '../assets/images/Taotuhk.png';
+import tauravaPhoto from '../assets/images/Taurava.png';
+import thystsPhoto from '../assets/images/Thysts.png';
+import tibPhoto from '../assets/images/Tib.jpg';
+import trellPhoto from '../assets/images/Trell.jpg';
+import trinonPhoto from '../assets/images/Trinon.png';
+import urtenPhoto from '../assets/images/Urten.png';
+import vadderskPhoto from '../assets/images/Vaddersk.png';
+import varanthiPhoto from '../assets/images/Varanthi.png';
+import veridakPhoto from '../assets/images/Veridak.png';
+import viporianPhoto from '../assets/images/Viporian.png';
+import vivusPhoto from '../assets/images/Vivus.png';
+import vixPhoto from '../assets/images/Vix.png';
+import voricPhoto from '../assets/images/Voric.png';
+import weremanPhoto from '../assets/images/Wereman.png';
+import witiclissPhoto from '../assets/images/Witicliss.png';
+import wyrmkindPhoto from '../assets/images/Wyrmkind.jpg';
+import xeridanPhoto from '../assets/images/Xeridan.jpg';
+import zadnautsPhoto from '../assets/images/Zadnauts.jpg';
+import zarutiPhoto from '../assets/images/Zaruti.png';
+import zephyridsPhoto from '../assets/images/Zephyrids.jpg';
 
 
 const bloodlines = [
@@ -140,7 +202,7 @@ const bloodlines = [
     drawback: 'Restless Minds: -2 to Cognition. Their energetic nature makes prolonged focus challenging.',
     rootAbility: 'Acrobatic Leap: As an Unfocused ability, you can perform simple to medium difficulty acrobatic maneuvers (like jumping over obstacles, swinging on vines, or tumbling through a small gap) without needing a chance roll.',
     photo: boonPhoto, // Placeholder for Boon photo
-    description: 'Agile and boisterous, Trogs are powerful, baboon-like humanoids known for their incredible quickness, cunning, and acrobatic prowess. They thrive in lush jungles, navigating dense canopies with ease and exhibiting surprising sleight of hand.',
+    description: 'Agile and boisterous, Boons are powerful, baboon-like humanoids known for their incredible quickness, cunning, and acrobatic prowess. They thrive in lush jungles, navigating dense canopies with ease and exhibiting surprising sleight of hand.',
     essenceLevel: 2,
     hpBonus: 6,
     startingJinx: 25,
@@ -155,6 +217,7 @@ const bloodlines = [
     boon: 'Rooted Resilience: +2 to Resilience. Their bodies are as tough as ancient wood, granting them immense durability.',
     drawback: 'Branching Demeanor: -1 to Aura. Their stoic and unyielding nature can make them seem gruff or unapproachable.',
     rootAbility: 'Grumpy and unyielding, Boreaux are tree-like humanoids rooted in the ancient woods. They are known for their stubborn resolve and their deep, if sometimes cantankerous, connection to the forest. They embody the enduring strength and silent wisdom of the oldest trees.',
+    description: 'Grumpy and unyielding, Boreaux are tree-like humanoids rooted in the ancient woods. They are known for their stubborn resolve and their deep, if sometimes cantankerous, connection to the forest. They embody the enduring strength and silent wisdom of the oldest trees.',
     photo: boreauxPhoto, // Placeholder for Boreaux photo
     essenceLevel: 3,
     hpBonus: 7,
@@ -526,7 +589,7 @@ const bloodlines = [
     drawback: 'Unstable Form: -2 to Might. Their lack of solid bone or muscle makes them less suited for raw physical strength.',
     rootAbility: 'Mimicry: As a Kinetic Form Spark ability, you can shift your face to perfectly resemble another humanoid you have seen. This transformation lasts 1 hour or until you end it as a bonus action. This does not change your body size or shape.',
     photo: eidolonPhoto, // Placeholder for Eidolon photo
-    description: 'Enigmatic and unsettling, Goobs are creatures of living green goo, capable of altering their appearance at will to perfectly mimic others. They are ubiquitous, silent observers who can blend seamlessly into any environment, their true intentions often inscrutable.',
+    description: 'Enigmatic and unsettling, Eidolons are creatures of living green goo, capable of altering their appearance at will to perfectly mimic others. They are ubiquitous, silent observers who can blend seamlessly into any environment, their true intentions often inscrutable.',
     essenceLevel: 2,
     hpBonus: 6,
     startingJinx: 25,
@@ -599,6 +662,224 @@ const bloodlines = [
     avgHeight: 15,
     avgLife: 53,
   },
+  {
+    id: 'felynx',
+    name: 'Felynx',
+    boon: 'Predators Celerity: +1 to Celerity. Their movements are swift and precise, like a hunting cat.',
+    drawback: 'Instinctual Mind: -1 to Cognition. Their reliance on instinct can sometimes hinder complex analytical thought.',
+    rootAbility: 'Acrobatic Fluidity: As an Unfocused ability, you can perform simple to medium difficulty acrobatic maneuvers',
+    photo: felynxPhoto,
+    description: 'Agile and instinctual, Felynx are feline humanoids who roam vast plains as tribal hunters. They move with an elegant stealth, their senses keenly attuned to the rhythms of the wild, making them formidable trackers and swift combatants.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 40,
+    attackProwess: 6,
+    defenseProwess: 8,
+    avgHeight: 5,
+    avgLive: 78,
+  },
+  {
+    id: 'fideliusk',
+    name: 'Fideliusk',
+    boon: 'Urban Celerity: +2 Celerity. Their quickness and small stature make them masters of urban movement and evasion.',
+    drawback: 'Delicate Frame: -2 to Resilience. Their small, agile bodies are less capable of absorbing significant physical punishment.',
+    rootAbility: 'Social Resonance: As an Unfocused ability, you can tell if someone is lying or not. This is not automatic; you have to declare you are "listening for resonance" prior to hearing the answer. Their keen social awareness picks up subtle tells.',
+    photo: fideliuskPhoto, // Placeholder for Fideliusk photo
+    description: 'Small and cunning, Fideliusk are mouse-like humanoids known for their keen political skills and surprising agility. They thrive in bustling cities, navigating intricate social webs with ease and often wielding influence from the shadows.',
+    essenceLevel: 3,
+    hpBonus: 3,
+    startingJinx: 35,
+    attackProwess: 6,
+    defenseProwess: 10,
+    avgHeight: 3,
+    avgLife: 447,
+  },
+  {
+    id: 'frax',
+    name: 'Frax',
+    boon: 'Tundra Resilience: +1 to Resilience. Their bodies are hardened by the unforgiving cold, granting them sturdy constitution.',
+    drawback: 'Brittle Resolve: -1 to Might. While agile, their smaller frames are less suited for brute force.',
+    rootAbility: 'First Strike Instinct: As an Unfocused ability, you can initiate combat by attacking first, regardless of initiative order.',
+    photo: fraxPhoto, // Placeholder for Frax photo
+    description: 'Small in stature but brimming with arctic cunning, Frax  are a fox-like race of formidable trackers and ambush predators. Standing barely three feet tall, they thrive in the tundras harsh embrace, their instincts sharp and their movements deceptively quick.',
+    essenceLevel: 3,
+    hpBonus: 8,
+    startingJinx: 40,
+    attackProwess: 8,
+    defenseProwess: 10,
+    avgHeight: 4,
+    avgLife: 77,
+  },
+  {
+    id: 'gonjic',
+    name: 'Gonjic',
+    boon: 'Skittish Celerity: +3 to Celerity. Their survival instincts grant them uncanny quickness and awareness.',
+    drawback: 'Repugnant Aura: -1 to Aura. Their unsettling appearance and abrasive nature make them socially difficult.',
+    rootAbility: 'Blight Shriek: As an Unfocused ability, can let out a guttural shriek, causing any other Pustule nearby to echo it. A single target must make a Resilience save of DC 5 (if alone) or DC 10 (if joined by other Pustules) or become Frightened for 1D4 rounds. Usable once per encounter.',
+    photo: gonjicPhoto, // Placeholder for Gonjic photo
+    description: 'Enigmatic and often cold,Gonjic are a rare lineage born of Djinni and mortal blood, inheriting a powerful psychic affinity. They perceive the world through a veil of mental energies, unraveling secrets and influencing minds, often with a detached, chilling grace.',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 30,
+    attackProwess: 8,
+    defenseProwess: 8,
+    avgHeight: 7,
+    avgLife: 85,
+  },
+  {
+    id: ' gorak',
+    name: 'Gorak',
+    boon: 'Unmatched Might: +3 to Might. Their physical strength is legendary, allowing them to overpower most foes',
+    drawback: 'Wild Impulse: -1 to Aura. Their raw, untamed nature can make them seem intimidating or crude in social settings.',
+    rootAbility: 'Primal Persuasion: As an Unfocused ability, you can substitute your Might Stat for your Aura Stat on one social interaction check per encounter.',
+    photo: gorakPhoto, // Placeholder for Gorak photo
+    description: 'Powerful and primal, Gorak are gorilla-like humanoids who dominate the dense jungles with their immense strength and territorial instincts. They are formidable, direct, and possess a surprising, almost charming, animalistic presence.',
+    essenceLevel: 2,
+    hpBonus: 7,
+    startingJinx: 25,
+    attackProwess: 12,
+    defenseProwess: 6,
+    avgHeight: 9,
+    avgLife: 74,
+  },
+  {
+    id: 'grom',
+    name: 'Grom',
+    boon: 'Mountain-Born Resilience: +3 to Resilience. Their bodies are as tough as the stone they carve.',
+    drawback: 'Stubborn Mind: -1 to Cognition. Their unyielding nature can make them resistant to new ideas or abstract thinking.',
+    rootAbility: 'Unyielding Resolve: As an Unfocused ability, once per encounter, you can end one effect on yourself that is causing you to be charmed, frightened, or poisoned.',
+    photo: gromPhoto, // Placeholder for Grom photo
+    description: 'Resilient and proud, Grom are stout and hardy dwarvenkind, born of mountain and forge. They possess an unbreakable spirit, a love for craftsmanship, and a stubborn refusal to yield in the face of adversity.',
+    essenceLevel: 3,
+    hpBonus: 8,
+    startingJinx: 30,
+    attackProwess: 10,
+    defenseProwess: 6,
+    avgHeight: 4,
+    avgLife: 122,
+  },
+  {
+    id: 'grot',
+    name: 'Grot',
+    boon: 'Skittish Celerity: +3 to Celerity. Their survival instincts grant them uncanny quickness and awareness.',
+    drawback: 'Repugnant Aura: -2 to Aura. Their unsettling appearance and abrasive nature make them socially difficult.',
+    rootAbility: 'Blight Shriek: As an Unfocused ability, can let out a guttural shriek, causing any other Pustule nearby to echo it. A single target must make a Resilience save of DC 5 (if alone) or DC 10 (if joined by other Pustules) or become Frightened for 1D4 rounds. Usable once per encounter.',
+    photo: grotPhoto, // Placeholder for Grot photo
+    description: 'Gritty and conniving, Grot are common goblins, yet their distinct purple skin hints at a subtle, unsettling connection to the blight of the land. They thrive in murky woods, beneath bridges, and within fetid swamps, their presence often accompanied by a jarring shriek',
+    essenceLevel: 3,
+    hpBonus: 6,
+    startingJinx: 35,
+    attackProwess: 8,
+    defenseProwess: 6,
+    avgHeight: 6,
+    avgLife: 66,
+  },
+  {
+    id: 'harmoniks',
+    name: 'Harmoniks',
+    boon: 'Reinforced Chassis: +2 to Resilience. Their mechanical bodies are inherently tough and resistant to damage.',
+    drawback: 'Limited Expression: -2 to Aura. Their programmed nature makes them struggle with genuine emotional connection or nuanced social interaction.',
+    rootAbility: 'Emergency Protocols: As a Kinetic Form Spark ability, if you have the necessary components (small scrap metal, aether vial), you can spend a short rest to regain 2D6 HP. Can be used once per day.',
+    photo: harmoniksPhoto, // Placeholder for Harmoniks photo
+    description: 'Intricate and durable, Harmoniks are small mechanical beings, a fascinating blend of steam technology and raw Spark energy. Designed for myriad duties, they are rare, logical, and possess a remarkable capacity for self-repair, driven by internal gears and arcane matrices.',
+    essenceLevel: 2,
+    hpBonus: 8,
+    startingJinx: 25,
+    attackProwess: 8,
+    defenseProwess: 10,
+    avgHeight: 4,
+    avgLife: 999, // Harmoniks are constructs, so they can theoretically live indefinitely
+  },
+  {
+    id: 'hartfolk',
+    name: 'Hartfolk',
+    boon: 'Swift Reflexes: +3 to Celerity. Their heightened senses grant uncanny agility.',
+    drawback: 'Distractible Minds: -2 to Cognition. Easily distracted by sensory input.',
+    rootAbility: 'Antlered Fury: As a Kinetic Form Spark ability, can use hardened antlers to gore a target for 4D4 damage. This attack can cause a target to be momentarily stunned.',
+    photo: hartfolkPhoto, // Placeholder for Hartfolk photo
+    description: 'Graceful beings with deer-like features, Hartfolk possess an innate connection to the wild, moving silently through forests and reading the subtle signs of nature. They are natural scouts and empathetic companions.',
+    essenceLevel: 1,
+    hpBonus: 8,
+    startingJinx: 15,
+    attackProwess: 10,
+    defenseProwess: 8,
+    avgHeight: 7,
+    avgLife: 63,
+  },
+
+  {
+    id: 'havgin',
+    name: 'Havgin',
+    boon: 'Innate Arcana: +3 to Cognition. Their minds are naturally attuned to manipulating elemental energies and weaving complex spells.',
+    drawback: 'Physical Frailty: -2 to Might. Their ethereal heritage makes them less physically robust than other races.',
+    rootAbility: 'Arcane Vessel: As an Unfocused ability, you can enter a state of deep magical attunement within a personal lamp or similar enclosed vessel. This allows you to gain the benefits of a full long rest in just 1 hour. Usable once per long rest.',
+    photo: havginPhoto, // Placeholder for Havgin photo
+    description: 'Vibrant and elusive,Havgin are a rare variant of genie-kind, born from the merging of Djinni and Havgin bloodlines. They shimmer with iridescent colors and possess an innate connection to the raw magical currents of the desert, capable of miraculous feats.',
+    essenceLevel: 2,
+    hpBonus: 7,
+    startingJinx: 25,
+    attackProwess: 8,
+    defenseProwess: 8,
+    avgHeight: 6,
+    avgLife: 97,
+  },
+
+  {
+    id: 'human',
+    name: 'Human',
+    boon: 'Unyielding Resolve: +2 to Aura. Their physical endurance is exceptional, allowing them to endure hardship and push past limits.',
+    drawback: 'Physical Strain: -1 to Resilience. Their intense drive can sometimes lead to neglecting self-preservation.',
+    rootAbility: 'Martial Adept: As an Unfocused ability, gain proficiency with two martial weapons of your choice, or gain proficiency with one type of armor (Light, Medium, or Heavy).',
+    photo: humanPhoto, // Placeholder for Human photo
+    description: 'Resilient and ambitious, Humans are the quintessential adaptable beings of Cindervoid, found across every climate and culture. They are known for their tenacity, boundless potential, and a relentless drive to master any challenge.',
+    essenceLevel: 3,
+    hpBonus: 8,
+    startingJinx: 25,
+    attackProwess: 8,
+    defenseProwess: 10,
+    avgHeight:5.5,
+    avgLife: 99,
+  },
+
+  {
+    id: ' ignoll',
+    name: 'Ignoll',
+    boon: 'Volcanic Might: +2 to Might. Their immense forms are fueled by molten core, granting exceptional strength.',
+    drawback: 'Burning Impulsiveness: -2 to Celerity. Their fiery tempers and raw power make them less swift or graceful in movement.',
+    rootAbility: 'Molten Projectile: As a Pyre Arts Spark ability, can spend 1 Jinx to enflame small projectiles (like rocks or thrown weapons) with fire. This causes the projectile to deal its standard damage plus an additional 1D4 fire damage on impact.',
+    photo: ignollPhoto, // Placeholder for Ignoll photo
+    description: 'Hulking and infused with the raw power of elemental fire, Ignolls are fiery trolls born from the scorching heart of mega-volcanoes. They are primal, destructive forces, embodying a barbarian rage and a terrifying capacity to ignite their very essence.',
+    essenceLevel: 3,
+    hpBonus: 7,
+    startingJinx: 30,
+    attackProwess: 12,
+    defenseProwess: 6,
+    avgHeight: 11,
+    avgLife: 66,
+  },
+
+{
+  id: 'jedanako',
+  name: 'Jedanako',
+  boon: 'Focused Celerity: +2 to Celerity. Their reflexes are honed to an uncanny degree, aiding in precise targeting.',
+  drawback: 'Social Disconnect: -2 to Aura. Their unique physiology and intense focus can make them seem aloof or alien, hindering emotional connection.',
+  rootAbility: 'Cyclopian Beam: As a Radiant Spark ability, you can project a beam of concentrated light from your left eye, doing D12 damage. This ability can be used once per short or long rest.',
+  photo: jedanakoPhoto, // Placeholder for Jedanako photo
+  description: 'Elvkind transformed by eons spent in an ever-shifting, magical forest, outside of time, Jedanako possess luminous purple skin and vibrant yellow hair. Their single, magical laser eye is a testament to their evolution, capable of channeling concentrated beams of light, making them powerful and unsettling.',
+  essenceLevel: 3,
+  hpBonus: 7,
+  startingJinx: 30,
+  attackProwess: 10,
+  defenseProwess: 6,
+  avgHeight: 6,
+  avgLife: 99,
+
+},
+
+
+
+
+ 
 
 ];
 

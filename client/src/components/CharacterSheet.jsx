@@ -3,6 +3,8 @@ import { useReactToPrint } from 'react-to-print';
 
 import logo from '../assets/images/logo.png'; // Assuming you have a logo image
 
+
+
 const CharacterSheet = ({ character }) => {
   const componentRef = useRef(); // Ref to the component content to be printed
 
@@ -57,11 +59,11 @@ const CharacterSheet = ({ character }) => {
 
         <h4>Base Stats:</h4>
         <ul class="stat-list">
-          <li><strong>Might:</strong> ${character.stats.might}</li>
-          <li><strong>Celerity:</strong> ${character.stats.celerity}</li>
-          <li><strong>Resilience:</strong> ${character.stats.resilience}</li>
-          <li><strong>Cognition:</strong> ${character.stats.cognition}</li>
-          <li><strong>Aura:</strong> ${character.stats.aura}</li>
+          <li><strong>Might:</strong> ${character.stats.might}   +/- __ = ___</li>
+          <li><strong>Celerity:</strong> ${character.stats.celerity}  +/- __ = ___</li>
+          <li><strong>Resilience:</strong> ${character.stats.resilience}  +/- __ = ___</li>
+          <li><strong>Cognition:</strong> ${character.stats.cognition}  +/- __ = ___</li>
+          <li><strong>Aura:</strong> ${character.stats.aura}  +/- __ = ___</li>
         </ul>
         <h5>Don't forget to add your Bonus Stats!</h5>
       </div>
@@ -404,6 +406,8 @@ h5 {
     printWindow.document.write(printElement.innerHTML);
     printWindow.document.close();
     printWindow.focus();
+
+    
   
     setTimeout(() => {
         printWindow.print();
@@ -458,7 +462,16 @@ h5 {
         )}
 
         {character.sparkPath ? (
-          <h4>Spark Path: {character.sparkPath.name} ({character.sparkPath.desc})</h4>
+          <>
+          <h4>Spark Path: {character.sparkPath.name} </h4>
+          <ul>
+          {character.sparkPath.desc.map((desc, index) => (
+            
+              <li key={index}>{desc}</li>
+            
+          ))}
+          </ul>
+          </>
         ) : (
           <p>No Spark Path selected.</p>
         )}
