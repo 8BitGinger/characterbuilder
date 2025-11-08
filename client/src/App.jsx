@@ -3,6 +3,8 @@ import CharacterForm from './components/CharacterForm';
 import CharacterSheet from './components/CharacterSheet';
 import './App.css'; // Import the main CSS file
 
+import logo from './assets/images/logo.png'; // Import the logo image
+
 const App = () => {
   // State to hold all character data
   const [character, setCharacter] = useState({
@@ -35,7 +37,9 @@ const App = () => {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>TTRPG Character Creator</h1>
+        
+        <img src={logo} className="logo" alt="Cindervoid Logo" />
+<h1>Character Creator</h1>
       </header>
       <main className="app-main">
         <CharacterForm

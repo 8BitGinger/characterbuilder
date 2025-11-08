@@ -82,7 +82,7 @@ const CharacterForm = ({ character, setCharacter, pointsRemaining, setPointsRema
         </select>
         {character.bloodline && (
           <div className="selected-detail">
-            <img src={character.bloodline.photo} alt={character.bloodline.name} className="detail-photo" />
+            {/* <img src={character.bloodline.photo} alt={character.bloodline.name} className="detail-photo" /> */}
             <h3>{character.bloodline.name}</h3>
             <p>{character.bloodline.description}</p>
             {/* <p><strong>Boon:</strong> {character.bloodline.boon}</p>
