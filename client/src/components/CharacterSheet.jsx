@@ -464,6 +464,7 @@ h5 {
         {character.sparkPath ? (
           <>
           <h4>Spark Path: {character.sparkPath.name} </h4>
+          <p>{character.sparkPath.tag}</p>
           <ul>
           {character.sparkPath.desc.map((desc, index) => (
             

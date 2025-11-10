@@ -70,6 +70,7 @@ import qPhoto from '../assets/images/Q.jpg';
 import ramzekinPhoto from '../assets/images/Ramzekin.png';
 import redhornPhoto from '../assets/images/Redhorn.jpg';
 import rocodianPhoto from '../assets/images/Rocodian.png';
+import rutorianPhoto from '../assets/images/Rutorian.png'
 import savantePhoto from '../assets/images/Savante.png';
 import selvanPhoto from '../assets/images/Selvan.png';
 import sophomariPhoto from '../assets/images/Sophomari.png';
@@ -1242,6 +1243,23 @@ const bloodlines = [
   defenseProwess: 10,
   avgHeight: 7,
   avgLife: 333,
+},
+
+{
+  id: 'rutorian',
+  name: 'Rutorian',
+  boon: 'Rooted Presence: +2 to Cognition.  Ever mindful of their Rooted Self the Rutorian mind is a master of cognition.',
+  drawback: 'Deft Trunk: -2 to Celerity.  Their large tree-like bodies make their movements more rigid than most.',
+  rootAbility: 'Self-Sustenance: No longer requires eating or drinking.  You are so at one with yourself that you naturally no longer require food or water to survive.',
+  photo: rutorianPhoto, // Placeholder for Rocodian photo
+  description: 'Graceful and fluid, the Rutorian are humanoid figures formed from pale, supple wood resembling weeping willow and birch. They are often adorned with living mosses and vines, and their movements are characterized by a slow, deliberate sway, mirroring the gentle flow of a river.',
+  essenceLevel: 4,
+  hpBonus: 8,
+  startingJinx: 30,
+  attackProwess: 8,
+  defenseProwess: 10,
+  avgHeight: 7.5,
+  avgLife: 286,
 },
 {
   id: 'savante',

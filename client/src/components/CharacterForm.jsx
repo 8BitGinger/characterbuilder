@@ -139,6 +139,11 @@ const CharacterForm = ({ character, setCharacter, pointsRemaining, setPointsRema
             </option>
           ))}
         </select>
+         {character.sparkPath && (
+          <div className="selected-detail">
+            <p>{character.sparkPath.tag}</p>
+          </div>
+        )}
       </div>
 
       <StatAllocator

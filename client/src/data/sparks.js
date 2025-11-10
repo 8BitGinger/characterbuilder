@@ -1,5 +1,5 @@
 const sparks = [
-  { id: 'radiant', name: 'Radiant', desc: [
+  { id: 'radiant', name: 'Radiant', tag: 'Harness the pure light of the divine.', desc: [
       "Radiant Strike",
       "Aegis of Light",
       "Luminous Barrier",
@@ -11,7 +11,7 @@ const sparks = [
       "Weapon of Dawn",
       "Luminous Armor"
     ] },
-  { id: 'pyremancer', name: 'Pyremancer', desc: [
+  { id: 'pyremancer', name: 'Pyremancer', tag: 'Command the consuming wrath of the flame.', desc: [
       "Combustion Ignite",
       "Flame Bolt",
       "Pyro Absorption",
@@ -23,7 +23,7 @@ const sparks = [
       "Incandescent Form",
       "Blaze Weapon"
     ]},
-  { id: 'aerotec', name: 'Aerotec', desc: [
+  { id: 'aerotec', name: 'Aerotec', tag: 'Ride the unseen currents of the air.', desc: [
       "Atmospheric Control",
       "Wind Gust",
       "Tempest Summoner",
@@ -35,7 +35,7 @@ const sparks = [
       "Elemental Ward",
       "Aether Armor"
     ] },
-  { id: 'mindfire', name: 'Mindfire', desc: [
+  { id: 'mindfire', name: 'Mindfire', tag: 'Shape the world with sheer mental will.', desc: [
       "Shared Cognition",
       "Psychic Ward",
       "Telekinetic Force",
@@ -47,7 +47,7 @@ const sparks = [
       "Invisible Mind",
       "Master Persuader"
     ] },
-  { id: 'kineticist', name: 'Kineticist', desc: [
+  { id: 'kineticist', name: 'Kineticist', tag: 'Unleash the raw, crushing power of physics.', desc: [
       "Retribution",
       "Blood Fury",
       "Boomerang Throw",
@@ -59,7 +59,7 @@ const sparks = [
       "Adamantine Shell",
       "Finishing Blow"
     ] },
-  { id: 'tempest', name: 'Tempest', desc: [
+  { id: 'tempest', name: 'Tempest', tag: 'Strike with the furious, sudden shock of the storm.', desc: [
       "Static Discharge",
       "Lightning Jolt",
       "Electrostatic Field",
@@ -71,7 +71,7 @@ const sparks = [
       "Amped Up",
       "Thunder Strike"
     ] },
-  { id: 'vitalum', name: 'Vitalum', desc: [
+  { id: 'vitalum', name: 'Vitalum', tag: 'Weave the essence of life and swift healing.', desc: [
       "Shadow Mender",
       "Soul's Atonement",
       "Sustaining Mist",
@@ -83,7 +83,7 @@ const sparks = [
       "Defy Death",
       "Redemption's Call"
     ] },
-  { id: 'hydromancy', name: 'Hydromancy', desc: [
+  { id: 'hydromancy', name: 'Hydromancy', tag: 'Bend the ancient, ever-flowing tide.', desc: [
       "Water Jet",
       "Ice Shard",
       "Shark Maw",
@@ -95,7 +95,7 @@ const sparks = [
       "Glacial Armor",
       "Frosted Edge"
     ] },
-  { id: 'proximus', name: 'Proximus - (Requires Mastery)', desc: [
+  { id: 'proximus', name: 'Proximus - (Requires Mastery)', tag: 'Step instantly between spaces and shadows.', desc: [
       "Phase Step",
       "Spatial Tracking",
       "Warping Barrier",
